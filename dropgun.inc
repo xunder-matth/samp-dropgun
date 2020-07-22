@@ -21,7 +21,7 @@ forward OnPlayerPickUpDroppedWeapon(playerid, weaponid, ammo, pickupid);
 #endif
 #define PI 										(3.14159265354)
 
-#define DG_DEBUG 								(true)
+#define DG_DEBUG 								(false)
 
 #if DG_DEBUG
 	#define DG_DebugMessageEx(%0,%1)			printf(%1)
